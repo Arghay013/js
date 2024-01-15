@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adp Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" name="" id="display" readonly>
+        <div className="btns bg-red-400">
+            <button class="button" onclick="
+            currrentDisplayValue = '';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">C</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '+';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">+</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '-';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">-</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '*';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">*</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '/';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">/</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '1';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">1</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '2';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">2</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '3';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">3</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '4';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">4</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '5';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">5</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '6';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">6</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '7';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">7</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '8';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">8</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '9';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">9</button>
+            <button class="button" onclick="
+            currrentDisplayValue = currrentDisplayValue + '.';
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">.</button>
+            <button class="button" onclick="
+            currrentDisplayValue = eval(currrentDisplayValue);
+            document.querySelector('#display').value = currrentDisplayValue;
+            ">=</button>
+        </div>
+    </div>
+    <di. className="border-2 border-red-700">
+        <p>jksfhkfsdhksh</p>
+    </div>
+
+
+
+
+<script>
+    let currrentDisplayValue = '';
+    document.querySelector('#display').value = currrentDisplayValue;
+</script>
+</body>
+</html>
